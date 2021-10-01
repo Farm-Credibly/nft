@@ -964,7 +964,7 @@ input[type="radio"]+label:before {
 }
 
 .image.filtered:after {
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(225, 111, 31, 0.25) 25%, rgba(224, 163, 52, 0.25) 50%, rgba(231, 220, 118, 0.25));
     background-size: 128px 128px, auto;
     pointer-events: none;
     content: '';
@@ -978,7 +978,7 @@ input[type="radio"]+label:before {
 }
 
 .image.filtered.tinted:after {
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(225, 111, 31, 0.25) 25%, rgba(224, 163, 52, 0.25) 50%, rgba(231, 220, 118, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
     background-size: 128px 128px, auto, auto;
 }
 
@@ -2233,8 +2233,7 @@ button:disabled,
 }
 
 .panel>*.color0 {
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, #005750 20%, #009471 60%, #E0A334);
-    /*	background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4); */
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, #009471 20%, #96CC65 60%, #E7DC76);
     background-size: 128px 128px, auto;
 }
 
@@ -2257,9 +2256,9 @@ button:disabled,
 }
 
 .panel>*.color4 {
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(225, 111, 31, 0.25) 25%, rgba(224, 163, 52, 0.25) 50%, rgba(231, 220, 118, 0.25));
     background-size: 128px 128px, auto;
-    background-color: #353865;
+    background-color: #E0A334;
 }
 
 .panel>*.color1-alt {
@@ -2281,9 +2280,9 @@ button:disabled,
 }
 
 .panel>*.color4-alt {
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(225, 111, 31, 0.25) 25%, rgba(224, 163, 52, 0.25) 50%, rgba(231, 220, 118, 0.25));
     background-size: 128px 128px, auto;
-    background-color: #323459;
+    background-color: #E16F1F;
 }
 
 .panel>.intro {
@@ -2878,10 +2877,11 @@ button:disabled,
 }
 
 .panel.color4-alt {
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(225, 111, 31, 0.25) 25%, rgba(224, 163, 52, 0.25) 50%, rgba(231, 220, 118, 0.25));
     background-size: 128px 128px, auto;
-    background-color: #323459;
+    background-color: #E16F1F;
 }
+
 
 @media screen and (max-width: 736px) {
     .panel {
