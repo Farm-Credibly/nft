@@ -1,5 +1,9 @@
 @import url(fontawesome-all.min.css);
+
+/*
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+*/
+
 
 /*
 	Ethereal by HTML5 UP
@@ -1464,7 +1468,7 @@ ul.contact-icons>li:before {
     line-height: 2.25rem;
     border-radius: 2.25rem;
     background-color: white;
-    color: #2e2b37;
+    color: #009471;
     cursor: default;
     font-size: 1.125rem;
     margin-right: 1rem;
@@ -1478,6 +1482,7 @@ body.is-ie ul.contact-icons>li:before {
 
 ul.contact-icons>li a {
     border-bottom: 0;
+    font-weight: bold;
 }
 
 ul.contact-icons.color1>li:before {
@@ -1494,6 +1499,11 @@ ul.contact-icons.color3>li:before {
 
 ul.contact-icons.color4>li:before {
     color: #353865;
+}
+
+ul.contact-icons>li i.graphic:before,
+ul.contact-icons>li i.icon:before {
+    color: #009471;
 }
 
 
@@ -2881,7 +2891,6 @@ button:disabled,
     background-size: 128px 128px, auto;
     background-color: #E16F1F;
 }
-
 
 @media screen and (max-width: 736px) {
     .panel {
